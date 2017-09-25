@@ -1,0 +1,21 @@
+<div class="sidebar stylecontent">
+		<div class="augreg">
+			<table>	
+				<form method="post" action="<?php echo BASE_URL.'account'.DS.'loginPost.php' ;?>">
+				<?php getMessage();?>
+					<tr><td><input type="text" placeholder="Логін" name="login" class="focus  wite"></td></tr>
+					<tr><td><a href="" class="seopass">забули пароль?</a></td></tr>
+					<tr><td><input type="password" placeholder="Пароль"  name="password" class="focus  wite">	</td></tr>	    
+			    	<tr><td><input type="checkbox" class="rem">запам'ятати мене</td></tr>
+			</table>
+		   				<table>	
+							<tr>
+								<td><input type="submit" value="Вхід" name="log" class="button"></td>
+				</form> 
+	    			<form method="post" action="create.php">
+						<td><input type="submit" value="Реєстрація" name="registration" class="button"></td>
+						</tr>
+		    		</form>	
+		    </table>		
+		</div>
+</div>

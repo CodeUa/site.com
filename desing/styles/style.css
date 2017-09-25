@@ -1,0 +1,342 @@
+/*//////////////тіло////////////////*/
+@charset "utf-8"
+*{
+
+    margin:0;
+    padding: 0;
+    outline: none; 
+}
+html{height: 100%;}
+a{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    background-color: #fff;
+    color:#333;
+   font-family: Times New Roman, sans-serif;
+    font-size: 1.1em;
+}
+/*стилі для шапки-----------------------------------------------*/
+.header #goToHead{
+    width: 30%;
+    float: left;   
+}
+.fps{
+border:5px solid white;
+width: 300px;
+ height: 200px;
+margin-top: 40px;
+margin-left:25px;
+color: #464646 !important;
+text-shadow: 0 1px 0 #fff; float:left;
+-webkit-box-shadow: 6px 4px 23px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 4px 23px -7px rgba(0,0,0,0.75);
+box-shadow: 6px 4px 23px -7px rgba(0,0,0,0.75);
+}
+.ty{
+    margin-left: 100px;
+    margin-top: 240px;
+    color:#0184df;
+}
+.header{
+    position: relative;
+    min-height: 130px;
+    min-width: 1300px;
+    background-color: #eaeaea;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.header #goToHead .font{
+    color: #939393;
+    font-size: 2em;
+    font-family:Times New Roman, sans-serif;
+}
+.header #goToHead span{
+    color: #e36565;
+}
+.header #menuHead{
+    width: 34%;
+    float: left;
+}
+.header #menuHead div{
+    float: left;
+    padding: 5px;
+    background-color: #39c;
+    border-radius: 5px;
+    color: #000; 
+}
+.header #menuHead div:hover{
+    background-color: #fff;
+    transition: 1s;
+}
+
+.botHead{
+    position: relative;
+        min-width: 1300px;
+        margin-top: 5px;
+        height: 100px;
+    background: #eaeaea;
+    -webkit-box-shadow: 4px 6px 9px -5px rgba(0,0,0,0.8);
+    -moz-box-shadow: 4px 6px 9px -5px rgba(0,0,0,0.8);
+    box-shadow: 4px 6px 9px -5px rgba(0,0,0,0.8);
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 2px;
+}
+/*////////////////////////////*/
+
+/*////////////////////////////////////////////////*/
+#goToHead{
+    line-height: 65px;
+}
+#menuHead{
+    margin-top: 44px;
+    margin-left: 100px;
+}
+#regAuth{
+    margin-left: 55px;
+}
+.headermenu{
+
+    position: absolute;
+    left: 50px;
+    height:45px;
+    background: #39c;
+    margin: 0 30px;
+    border-radius: 5px;
+    top:30px;
+    min-width: 90%;
+
+}
+.button{
+    margin-top: 30px;
+    cursor:pointer;
+background: #39c;
+    display: inline-block;
+    padding: 7px 15px;
+    border: 0;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "Raleway","Helvetica Neue",Verdana,Arial,sans-serif;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.wite{
+ width: 300px;   
+}
+/*/////////////меню контенту/////////*/
+.float{
+    margin-left: 300px;
+    list-style: none;
+     position: absolute;
+     top: -18px;
+}
+.float li{
+       float: left;
+       line-height: 45px;
+       padding: 0 35px;
+       cursor: pointer;
+}
+.float li:hover{
+    background: #fff;
+    transition: 1s;
+}
+
+/*/////////////clear/////////*/
+.clear{
+    clear: both;
+    height: 10px;
+}
+/*.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}*/
+#content{
+    position: absolute;
+    left:300px;
+    margin: 25px 20px;
+    display: inline-block;
+    width: 700px;
+    overflow: hidden;
+    min-height: 100%;
+    background: #eaeaea;
+      -webkit-box-shadow: 4px 6px 9px -5px rgba(0,0,0,0.8);
+    -moz-box-shadow: 4px 6px 9px -5px rgba(0,0,0,0.8);
+    box-shadow: 4px 6px 9px -5px rgba(0,0,0,0.8);
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 2px;
+
+}
+.link{
+    margin-top:20px; 
+    font-weight:bold;
+}
+.calendar{
+    float: right;
+    margin-top: 25px;
+}
+.manage_text{
+    margin-left: 30px;
+}
+.content_size{
+    min-height: 100%;
+}
+
+/*.full{
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}*/
+/*/////////////стилі для пошуку/////////*/
+.search{
+    float: right;
+    margin-right: 10%;
+     line-height: 45px;
+}
+.width{
+         width: 400px;
+}
+.focus{
+ 
+  background: #ffe; 
+     border: 1px solid #29B0D9; 
+     height: 30px;
+
+}
+
+.submit{
+     color: #333;   
+}
+.submit:hover{
+
+    display:inline-block;
+    background: #ADC0C7 ;
+    transition: 1s;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;   
+}
+
+strong{
+    cursor: pointer;
+    
+}
+.rem{  
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Times New Roman, sans-serif;
+}
+.session{
+        font-family: Times New Roman, sans-serif;
+    color: #e36565;
+    font-size: 16px;
+    line-height: 1.5;
+    margin:0;
+}
+td{
+    display: inline-block;
+    font-size: 13px;
+    font-family: "Raleway","Helvetica Neue",Verdana,Arial,sans-serif;
+}
+
+/*/////////форма входу та реєстрації///////////*/
+.augreg{
+    float:left;
+    width: 320px;
+    margin: 30px 0;
+    position: relative;
+}
+
+/*/////////запам'ятати мене///////////*/
+.seopass{
+    color: #39c;
+    text-decoration: none;
+        font-size: 14px;
+    font-family:Times New Roman, sans-serif;
+}
+/*/////////Вітаю ви зайшли як.........///////*/
+.clr{
+        color:#333;
+}
+.bckg{
+    text-align: center;
+     background: #dfdede;
+     -webkit-box-shadow: inset -2px -1px 12px -8px rgba(0,0,0,0.83);
+-moz-box-shadow: inset -2px -1px 12px -8px rgba(0,0,0,0.83);
+box-shadow: inset -2px -1px 12px -8px rgba(0,0,0,0.83);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.warning{
+    display: block;
+    position: absolute;
+    background: #39c;
+    right:20px;
+    padding: 40px 15px;
+    float: right;
+    margin-right: 10%;
+     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*/////////стилі для реєстр і автор...///////*/
+/*.stylecontent{
+    -webkit-box-shadow: 4px 6px 9px -5px rgba(0,0,0,0.8);
+    -moz-box-shadow: 4px 6px 9px -5px rgba(0,0,0,0.8);
+    box-shadow: 4px 6px 9px -5px rgba(0,0,0,0.8);
+    border: 1px solid rgba(0, 0, 0, .2);    
+}*/
+.hr{
+    position: absolute;
+    top: 330px;
+    left: 140px;
+    border-top:1px dotted black;width:200px; 
+}
+.status{
+    position: absolute;
+    left: 150px;
+    top: 313px;
+    font-size:12px;
+}
+/*/////////форма реєстрації///////*/
+#newUsers{
+    /*left: 300px;
+    position: absolute;*/
+     margin-left:60px; 
+     float: left;
+     width: 400px;
+     margin-top: 25px;
+     min-height: 450px;
+}
+/*/////////дані про юзера///////*/
+#dataUsers{
+    float: left;
+      width: 300px;
+    background: #39c;
+    height: 500px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/*////////Ви вже зареєстровані........//////////*/
+.iframe{
+    margin-left: 150px;
+}
+.youreg{
+    position: absolute;
+    border-radius: 5px;
+    text-align: center;
+    margin:5px 0;
+    width: 96%;
+    background: #E9967A;
+
+}
+.foto{
+    margin-left: 30px;
+    border-radius: 2px;
+    border:1px solid rgba(0,0,0,0.5);
+}
+.umage{
+    margin:50px 100px;
+    border:5px solid white;
+}

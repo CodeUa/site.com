@@ -1,0 +1,31 @@
+<div id="newUsers">
+			<table>
+				<form method="post" action="createPost.php">
+								<?php getMessage(); ?>
+					<tr><td>Вкажіть Ім'я</td><tr>
+					<td><input type="text" name="name" class="focus width"></td>
+					<tr><td>Вкажіть Прізвище</td></tr>
+					<td><input type="text" name="surname" class="focus width"></td>
+					<tr><td>Вкажіть email</td></tr>
+					<td><input type="email" name="email" class="focus width"></td>
+					<tr><td>Вкажіть логін</td></tr>
+					<td><input type="text" name="login" class="focus width"></td>
+					<tr><td>Вкажіть Дату народження у форматі Д/М/Р</td></tr>
+					<td><input type="text" size="15" name="birth" class="focus width"></td>
+					<tr><td>Вкажіть стать</td></tr>
+					<td><input type="radio" name="sex1"  value="ч" checked>ч
+					<input type="radio" name="sex1" value="ж">ж</br></td>
+					<tr><td>Вкажіть пароль</td></tr>
+					<td><input type="password" name="passwordout" class="focus width"></td>
+					<tr><td>Повторіть пароль</td></tr>
+					<td><input type="password" name="password2" class="focus width"></td>
+			</table>
+			<table>
+					<td><input type="submit" name="submit" value="Реєстрація" class="button"></td>
+				</form>
+				<form method="post" action="index.php">
+							<td><input type="submit" name="log" value="Вхід" class="button"></td>
+						</form>	
+			</table>									
+</div>
+
